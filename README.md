@@ -20,6 +20,7 @@
 - [ ] Face Recognition search (Image search)
 - [ ] Text Prompt to Inference
 - [ ] Optional: Build data lake (database)
+- [ ] Optional: Command-Line Arguments
 
 ## Links
 https://www.conventionalcommits.org/en/v1.0.0/
