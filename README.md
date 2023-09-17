@@ -2,6 +2,9 @@
 
 ## Modeling
 - [ ] Visualization (e.g tensorboard)
+- [ ] `data`
+- [ ] `models`
+- [ ] `results`
 - [ ] Hyperparameters Tuning
 - [ ] Data Augmentation
 - [ ] Optimization
