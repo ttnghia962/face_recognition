@@ -4,6 +4,7 @@
 - [ ] Hyperparameters Tuning
 - [ ] Data Augmentation
 - [ ] Optimization
+- [ ] Optional: DeepSORT
 
 ## Running
 - [ ] Define the ROI (Region of Interest) Detection
