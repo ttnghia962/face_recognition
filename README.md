@@ -15,6 +15,7 @@
 ## Extra
 - [ ] Optional: Documentation
 - [ ] Optional: Segmentation
+- [ ] Flask UI (Admin/Client)
 - [ ] Face Recognition search (Image search)
 - [ ] Text Prompt to Inference
 - [ ] Optional: Build data lake (database)
