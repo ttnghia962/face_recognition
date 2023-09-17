@@ -5,8 +5,9 @@
 - [ ] Define the ROI (Region of Interest)
 - [ ] Hyperparameters Tuning
 - [ ] setup.py
+- [ ] pytest
 - [ ] Optional: Documentation
-- [ ] Segmentation
-- [ ] Face Recognition search
-- [ ] Text to Inference
+- [ ] Optional: Segmentation
+- [ ] Face Recognition search (Image search)
+- [ ] Text Prompt to Inference
 - [ ] Optional: Build data lake
