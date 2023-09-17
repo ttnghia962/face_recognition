@@ -2,7 +2,7 @@
 
 - [ ] Define the ROI (Region of Interest)
 - [ ] Hyperparameters Tuning
-- [ ] '__init__'.py
+- [ ] `__init__`.py
 - [ ] setup.py
 - [ ] pytest
 - [ ] Optional: Documentation
