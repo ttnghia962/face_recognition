@@ -1,6 +1,7 @@
 # To-Do List
 
 ## Modeling
+- [ ] Visualization (e.g tensorboard)
 - [ ] Hyperparameters Tuning
 - [ ] Data Augmentation
 - [ ] Optimization
@@ -19,3 +20,6 @@
 - [ ] Face Recognition search (Image search)
 - [ ] Text Prompt to Inference
 - [ ] Optional: Build data lake (database)
+
+## Links
+https://www.conventionalcommits.org/en/v1.0.0/
