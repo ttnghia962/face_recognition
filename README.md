@@ -1,9 +1,8 @@
 # To-Do List
 
-## Tracking
-
 - [ ] Define the ROI (Region of Interest)
 - [ ] Hyperparameters Tuning
+- [ ] __init__.py
 - [ ] setup.py
 - [ ] pytest
 - [ ] Optional: Documentation
