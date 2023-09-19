@@ -53,8 +53,8 @@ def iou_batch(bb_test, bb_gt):
 def convert_bbox_to_z(bbox):
     """
     Takes a bounding box in the form [x1,y1,x2,y2] and returns z in the form
-      [x,y,s,r] where x,y is the centre of the box and s is the scale/area and r is
-      the aspect ratio
+    [x,y,s,r] where x,y is the centre of the box and s is the scale/area and r is
+    the aspect ratio
     """
     w = bbox[2] - bbox[0]
     h = bbox[3] - bbox[1]
@@ -68,7 +68,7 @@ def convert_bbox_to_z(bbox):
 def convert_x_to_bbox(x, score=None):
     """
     Takes a bounding box in the centre form [x,y,s,r] and returns it in the form
-      [x1,y1,x2,y2] where x1,y1 is the top left and x2,y2 is the bottom right
+    [x1,y1,x2,y2] where x1,y1 is the top left and x2,y2 is the bottom right
     """
     w = np.sqrt(x[2] * x[3])
     h = x[2] / w
@@ -92,7 +92,7 @@ class KalmanBoxTracker(object):
         self.kf = KalmanFilter(dim_x=7, dim_z=4)
         self.kf.F = np.array(
             [[1, 0, 0, 0, 1, 0, 0], [0, 1, 0, 0, 0, 1, 0], [0, 0, 1, 0, 0, 0, 1], [0, 0, 0, 1, 0, 0, 0],
-             [0, 0, 0, 0, 1, 0, 0], [0, 0, 0, 0, 0, 1, 0], [0, 0, 0, 0, 0, 0, 1]])
+            [0, 0, 0, 0, 1, 0, 0], [0, 0, 0, 0, 0, 1, 0], [0, 0, 0, 0, 0, 0, 1]])
         self.kf.H = np.array(
             [[1, 0, 0, 0, 0, 0, 0], [0, 1, 0, 0, 0, 0, 0], [0, 0, 1, 0, 0, 0, 0], [0, 0, 0, 1, 0, 0, 0]])
 
@@ -200,7 +200,7 @@ class Sort(object):
     def update(self, dets=np.empty((0, 5))):
         """
         Params:
-          dets - a numpy array of detections in the format [[x1,y1,x2,y2,score],[x1,y1,x2,y2,score],...]
+        dets - a numpy array of detections in the format [[x1,y1,x2,y2,score],[x1,y1,x2,y2,score],...]
         Requires: this method must be called once for each frame even with empty detections (use np.empty((0, 5)) for frames without detections).
         Returns the a similar array, where the last column is the object ID.
 
@@ -280,8 +280,8 @@ if __name__ == '__main__':
     pattern = os.path.join(args.seq_path, phase, '*', 'det', 'det.txt')
     for seq_dets_fn in glob.glob(pattern):
         mot_tracker = Sort(max_age=args.max_age,
-                           min_hits=args.min_hits,
-                           iou_threshold=args.iou_threshold)  # create instance of the SORT tracker
+                        min_hits=args.min_hits,
+                        iou_threshold=args.iou_threshold)  # create instance of the SORT tracker
         seq_dets = np.loadtxt(seq_dets_fn, delimiter=',')
         seq = seq_dets_fn[pattern.find('*'):].split(os.path.sep)[0]
 
@@ -306,7 +306,7 @@ if __name__ == '__main__':
 
                 for d in trackers:
                     print('%d,%d,%.2f,%.2f,%.2f,%.2f,1,-1,-1,-1' % (frame, d[4], d[0], d[1], d[2] - d[0], d[3] - d[1]),
-                          file=out_file)
+                        file=out_file)
                     if (display):
                         d = d.astype(np.int32)
                         ax1.add_patch(patches.Rectangle((d[0], d[1]), d[2] - d[0], d[3] - d[1], fill=False, lw=3,
