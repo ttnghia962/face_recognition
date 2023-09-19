@@ -3,7 +3,6 @@ from __future__ import print_function
 import os
 import numpy as np
 import matplotlib
-
 matplotlib.use('TkAgg')
 import matplotlib.pyplot as plt
 import matplotlib.patches as patches
