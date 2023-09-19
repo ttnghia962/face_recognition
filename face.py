@@ -8,7 +8,7 @@ from torch.utils.data.dataloader import DataLoader
 from torch.utils.data.sampler import SubsetRandomSampler
 from torch.optim.lr_scheduler import MultiStepLR
 from torchvision import datasets, transforms
-from facenet_pytorch import MTCNN, InceptionResnetV1, fixed_image_standardization, training
+from facenet_pytorch import (MTCNN, InceptionResnetV1, fixed_image_standardization, training)
 from tqdm import tqdm
 from sort import Sort
 
