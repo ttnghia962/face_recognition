@@ -1,0 +1,6 @@
+cv2
+numpy
+torch
+torchvision
+facenet-pytorch
+tqdm
