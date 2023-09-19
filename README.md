@@ -7,7 +7,7 @@
 - [ ] `results`
 - [ ] Hyperparameters Tuning
 - [ ] Data Augmentation
-- [ ] Optimization
+- [ ] Code Optimization
 - [ ] Optional: DeepSORT
 
 ## Running
