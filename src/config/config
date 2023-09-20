@@ -1,0 +1,1 @@
+{"stream": "./video/8.mp4", "api_url": "http://10.0.0.37:5001/detect", "face_min_width": "80", "ROI": [[428, 100], [2065, 980]], "scale": 1.0, "list_len": "6"}
