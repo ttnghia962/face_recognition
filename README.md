@@ -25,6 +25,9 @@
 - [ ] Optional: Build data lake (database)
 - [ ] Optional: Command-Line Arguments
 - [x] `requirements.txt`
+- [ ] `LICENSE`
+- [x] `.gitignore`
+- [x] `.gitattributes`
 - [ ] Docker Integration
 
 ## Links
