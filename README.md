@@ -24,7 +24,8 @@
 - [ ] Text Prompt to Inference
 - [ ] Optional: Build data lake (database)
 - [ ] Optional: Command-Line Arguments
-- [ ] `requirements.txt`
+- [x] `requirements.txt`
+- [ ] Docker Integration
 
 ## Links
 - https://www.conventionalcommits.org/en/v1.0.0/
