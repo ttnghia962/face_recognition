@@ -18,6 +18,7 @@
 
 ## Extra
 - [ ] Optional: Documentation
+- [x] Docstrings
 - [ ] Optional: Segmentation
 - [ ] Flask UI (Admin/Client)
 - [ ] Face Recognition search (Image search)
