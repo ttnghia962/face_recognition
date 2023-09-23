@@ -27,7 +27,7 @@
 - [ ] Optional: Command-Line Arguments
 - [x] `requirements.txt`
 - [ ] `LICENSE`
-- [x] `.gitignore`
+- [ ] `.gitignore`
 - [x] `.gitattributes`
 - [ ] Docker Integration
 
