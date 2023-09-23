@@ -13,8 +13,8 @@
 ## Running
 - [ ] Define the ROI (Region of Interest) Detection
 - [ ] `__init__.py`
-- [ ] `setup.py`
-- [ ] `test.py` (pytest)
+- [x] `setup.py`
+- [x] `test_sample.py` (pytest)
 
 ## Extra
 - [ ] Optional: Documentation
@@ -27,7 +27,7 @@
 - [ ] Optional: Command-Line Arguments
 - [x] `requirements.txt`
 - [ ] `LICENSE`
-- [ ] `.gitignore`
+- [x] `.gitignore`
 - [x] `.gitattributes`
 - [ ] Docker Integration
 
