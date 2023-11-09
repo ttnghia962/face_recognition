@@ -24,4 +24,5 @@ if __name__ == '__main__':
     inference.infer_faces()
 
     tracking = Tracking(data_path='training_data', model_path='code.pt')
+    tracking.load_model()
     tracking.track_and_recognize_faces()
